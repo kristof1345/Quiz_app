@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TicTcaToe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/46ffad99ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="start-container">
+      <div class="start-holder">
+        <div class="result"><span class="rights"></span> right out of 5</div>
+        <button class="start-game">Start</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="holder">
+        <div class="question-counter">
+          Question <span id="counter">1</span> out of 5
+        </div>
+        <hr />
+        <h1 class="question">How to write an IF statement in JS?</h1>
+        <div class="options">
+          <div class="option-div" data-selected="no">sometihin1</div>
+          <div class="option-div" data-selected="no">sometihin2</div>
+          <div class="option-div" data-selected="no">sometihin3</div>
+          <div class="option-div" data-selected="no">sometihin4</div>
+        </div>
+        <div class="button-holder">
+          <button class="next">Next</button>
+          <button class="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js.js" type="module"></script>
+    <script src="qiuz.js" type="module"></script>
+  </body>
+</html>
